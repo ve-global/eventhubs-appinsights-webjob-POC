@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Azure.WebJobs;
 
-namespace eventhubs_appinsights_webjob
+namespace EventHub.AppInsights.WebJob
 {
     // To learn more about Microsoft Azure WebJobs SDK, please see http://go.microsoft.com/fwlink/?LinkID=320976
     class Program
@@ -15,7 +15,7 @@ namespace eventhubs_appinsights_webjob
         static void Main()
         {
             var host = new JobHost();
-            // The following code ensures that the WebJob will be running continuously
+            
             host.RunAndBlock();
         }
     }

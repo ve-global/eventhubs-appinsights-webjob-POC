@@ -7,8 +7,8 @@
     <ProjectGuid>{3E037023-0BE4-447C-953F-2979FF9404BA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>eventhubs_appinsights_webjob</RootNamespace>
-    <AssemblyName>eventhubs-appinsights-webjob</AssemblyName>
+    <RootNamespace>EventHub.AppInsights.WebJob</RootNamespace>
+    <AssemblyName>EventHub.AppInsights.WebJob</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -73,7 +73,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
-    <Compile Include="Functions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
